@@ -1,0 +1,32 @@
+.container {
+    width: 22%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+.container:hover {background: #cf7660;}
+.title {
+    font-size:18px;
+    font-weight: bold;
+   color: #d1411e;
+}
+
+.price{
+    font-size: 18;
+    font-weight: bold;
+   color: #666;
+   text-align: center;
+}
+
+.desc{
+    color:#777;
+    text-align: center;
+    text-align: center;
+    font-size: 16;
+}
